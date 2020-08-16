@@ -1,4 +1,4 @@
-html{
+body{
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
     padding: 10px;
@@ -13,33 +13,37 @@ html{
 }
 .leftcolumn{
     float:left;
-    width: 75%;
+    width: 70%;
+    margin-right: 5px;
+}
+.leftcolumn img{
+    float: left;
 }
 .rightcolumn{
     float: left;
-    padding: 25%;
-    padding-left: 2px;
-}
-.img{
+    width: 25%;
     padding: 2px;
-
-}
-
-.card{
-    background-color: rgb(58, 197, 31);
-    padding: 2px;
-    margin-top: 20px;
-}
+  
+} 
 .row::after{
     content: "";
     display: table;
     clear: both;
 }
+
+
+.card{
+    background-color: rgb(58, 197, 31);
+    padding: 2px;
+    margin-top: 10px;
+}
+
 .footer{
     padding: 20px;
     text-align: center;
     background: crimson;
     font-family: 'Pacifico', cursive;
+    margin-top: 10px;
 }
 @media screen and (max-width: 811px){
     .leftcolumn , .rightcolumn{
