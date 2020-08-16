@@ -1,5 +1,46 @@
-body{
+html{
     font-family: 'Indie Flower', cursive;
     padding: 20px;
-    background-color: rgb(247, 188, 115);
+    background: rgb(247, 188, 115);
+}
+.header{
+    padding: 30px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    background: rgb(48, 236, 205);
+}
+.leftcolumn{
+    float:left;
+    width: 75%;
+}
+.rightcolumn{
+    float: left;
+    padding: 25%;
+    padding-left: 20px;
+}
+.img{
+    padding: 20px;
+}
+
+.card{
+    background-color: rgb(58, 197, 31);
+    padding: 20px;
+    margin-top: 20px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: crimson;
+    margin-top: 20px;
+}
+@media screen and (max-width: 800px){
+    .leftcolumn , .rightcolumn{
+        width: 100%;
+        padding: 0%;
+    }
 }
