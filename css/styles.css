@@ -1,11 +1,13 @@
 html{
     font-family: 'Indie Flower', cursive;
-    padding: 20px;
+    font-size: 20px;
+    padding: 10px;
     background: rgb(247, 188, 115);
 }
 .header{
-    padding: 30px;
+    padding: 10px;
     font-family: 'Lobster', cursive;
+    font-size: 30px;
     text-align: center;
     background: rgb(48, 236, 205);
 }
@@ -16,15 +18,16 @@ html{
 .rightcolumn{
     float: left;
     padding: 25%;
-    padding-left: 20px;
+    padding-left: 2px;
 }
 .img{
-    padding: 20px;
+    padding: 2px;
+
 }
 
 .card{
     background-color: rgb(58, 197, 31);
-    padding: 20px;
+    padding: 2px;
     margin-top: 20px;
 }
 .row::after{
@@ -36,9 +39,9 @@ html{
     padding: 20px;
     text-align: center;
     background: crimson;
-    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 811px){
     .leftcolumn , .rightcolumn{
         width: 100%;
         padding: 0%;
